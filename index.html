@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <form>
+        <h1>Formulaire DWWM</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td class="columb1">Nom</td>
+                    <td class="columb2"><input type="text" placeholder="Entrez votre nom" id="name"></td>
+                </tr>
+                <tr>
+                    <td class="columb1">Email</td>
+                    <td class="columb2"><input type="email" placeholder="Entrez votre email" id="Email"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="columb1">Indiquez votre satisfaction au cours de 1 à 10</td>
+                    <td class="columb2"><input type="number" placeholder="numéro de 1 à 10"  id="num"></td>
+                </tr>
+                <tr>
+                   <td class="columb1">Qui est votre coach?</td>
+                   <td class="columb2">
+                       <select id="select">
+                           <option value="Birante"> Birante</option>
+                           <option value="Mamadou DIARRA">Mammadou Diarra</option>
+                           <option value="Malick Ba">Malick BA</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                   <td class="columb1">
+                    Dècrivez votre expérience jusque là
+                   </td>
+                   <td class="columb2"><br>
+                   <textarea cols="33" rows="5" placeholder="Décrivez votre expérience ici…" id="text"></textarea><br>
+                   </td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="BTN" onclick="myFonction()">Envoyer</button>
+        <div class="center">
+            <h3 id="nom"> </h3>
+            <h3 id="Mail"> </h3>
+            <h3 id="Num"> </h3>
+            <h3 id="Select"> </h3>
+            <h3 id="Text"> </h3>
+        </div>
+    </form>
+   <script src="script.js"></script>
+</body>
+</html>

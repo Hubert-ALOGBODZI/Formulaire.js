@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A9D7E9;
+}
+h1{
+    text-align: center;
+    background-color: #A9D7E9;
+}
+form{
+    background-color: #F3F3F3;
+   margin-top: 10%;
+   margin-left: 20%;
+   width: 700px;
+    height: 50%;
+    line-height: 50px;
+}
+.columb1{
+    text-align:right;
+}
+.columb2{
+    padding-left: 5%;
+}
+#BTN{
+    background-color: #0baff0;
+    margin-left: 38%;
+    padding: .5em;
+}
+.center{
+    margin-left: 38%;
+}
